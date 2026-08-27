@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Terima Kasih</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body style="background-image: url(https://images.unsplash.com/photo-1530273973427-22351773250c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+" class="flex justify-center h-screen items-center"
+>
+
+<div class="bg-white border px-10 py-8 border-4 border-gray-400 shadow-lg shadow-blue-400 rounded-xl text-center animate__animated animate__backInDown m-8 w-80" id="kartu">
+    <h1 class="text-3xl">1 Pesan Untuk kamu</h1>
+    <h2 class="text-2xl text-blue-500 font-bold animate__animated animate__pulse animate__infinite"> Manusia Favoritku </h2>
+    <button class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-950 transition ease-in animate__animated animate__delay-1s animate__tada" onclick="ubahkartu()">Klik Disini Ya Cantik!</button>
+</div>
+
+<script  src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.3.3/tsparticles.confetti.bundle.min.js"></script>
+<script>
+let kartu=document.getElementById("kartu");
+function ubahkartu() {
+    kartu.innerHTML = `<h1 class="semi-bold text-wrap animate__animated animate__zoomIn">
+    Terima kasih sudah memberikan kesempatan untuk aku bisa dekat dengan kamu, Terima kasih sudah pernah menjadi bagian penting di hidupku, Terima kasih sudah memberikan warna dalam hidupku, Dan Terima kasih untuk semuanya. Maaf sudah membuatmu kecewa, Maaf untuk semua luka yang aku berikan ke kamu, Maaf untuk semua kesalahan yang aku lakukan. Aku benar" tulus mencintai kamu dan meskipun kita tidak berkomunikasi lagi, percayalah bahwa aku tetap mencintai kamu, Maaf ya kalo alay hehe.
+I Loved You.
+See You Agisa Nanda Pratiwi 🤍🥺 </h1>
+<h2 class="mt-3 animate__animated animate__fadeIn">-Dari Aku, Risky Maulana Zhent-</h2>
+ <button class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-950 transition ease-in animate__animated animate__delay-1s animate__tada" onclick="refresh()">Tutup</button>
+`;
+    }
+function refresh() {
+    location.reload();
+}
+</script>
+</body>
+</html>
